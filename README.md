@@ -20,16 +20,16 @@ Sonar script to analyse java 8 project with maven.
   <version>${jacoco-maven-plugin.version}</version>
   <executions>
     <execution>
-    <id>prepare-agent</id>
-    <goals>
-      <goal>prepare-agent</goal>
-    </goals>
+      <id>prepare-agent</id>
+      <goals>
+        <goal>prepare-agent</goal>
+      </goals>
     </execution>
     <execution>
-    <id>report</id>
-    <goals>
-      <goal>report</goal>
-    </goals>
+      <id>report</id>
+      <goals>
+        <goal>report</goal>
+      </goals>
     </execution>
   </executions>
 </plugin>

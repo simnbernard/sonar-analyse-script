@@ -1,9 +1,10 @@
 # sonar-analyse-script
 
-Sonar script to analyse java 8 project with maven
+Sonar script to analyse java 8 project with maven.
 
-`start.sh -r` Run sonar in docker (don't forget to configure projet)
-`start.sh -a`Analyse the project (don't forget to configure variable in the beginning of script)
+`start.sh -r` : Run sonar in docker (don't forget to configure projet)
+
+`start.sh -a` : Analyse the project (don't forget to configure variable in the beginning of script)
 
 ## Config pom.xml 
 
